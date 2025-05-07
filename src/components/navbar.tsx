@@ -40,14 +40,6 @@ export function Navbar() {
             >
               Get Involved
             </Link>
-            <Link
-              href="/about"
-              className={`px-4 py-2 text-sm transition-colors hover:text-primary ${
-                pathname === "/about" ? "text-primary font-medium" : "text-muted-foreground"
-              }`}
-            >
-              About
-            </Link>
             <div className="ml-4">
               <ThemeToggle />
             </div>
